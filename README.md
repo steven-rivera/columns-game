@@ -2,7 +2,11 @@
 
 This is a recreation of the match-three video game Columns, released by Sega in 1990. 
 
-<img src="images/gameplay.png" height="250"/>
+<div align="center">  
+    <img src="images/gameplay.png" height="250"/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="images/gameplay2.png" height="250"/>
+</div>
 
 ## How to Run
 
