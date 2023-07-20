@@ -181,7 +181,7 @@ class ColumnsGame:
                     player_rect = pygame.Rect(pixel_x, pixel_y, pixel_width, pixel_height)
                     pygame.draw.rect(self._surface, color, player_rect)
 
-    def _resize_surface(self, size: (int, int)) -> None:
+    def _resize_surface(self, size: tuple[int, int]) -> None:
         self._surface = pygame.display.set_mode(size, pygame.RESIZABLE)
 
     def _end_game(self) -> None:

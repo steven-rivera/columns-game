@@ -151,7 +151,7 @@ class GameState:
 
             self.board[index] = new_column
 
-    def clear_board_of_matches(self, indexes_of_matches: [(int, int)]):
+    def clear_board_of_matches(self, indexes_of_matches: list[tuple[int, int]]):
         """Given the indexes of the jewels that have matches this function clears
         the jewels from the board."""
         for column_index, row_index in indexes_of_matches:
@@ -229,7 +229,7 @@ class CheckForMatches:
         self.num_rows = game.num_rows
         self.matching_indexes = set()
 
-    def matches_indexes(self) -> {(int, int)}:
+    def matches_indexes(self) -> set[tuple[int, int]]:
         """Returns a set of tuples that each contain the column and row index
         of all the jewels that have matches. An empty set is return if there are
         no matches."""
@@ -274,7 +274,7 @@ class CheckForMatches:
         return 0 <= row_number < self.num_rows
 
 
-def _create_empty_board() -> [[int]]:
+def _create_empty_board() -> list[list[int]]:
     """
     Creates a new game board.  Initially, a game board has the size
     13 x 6 and is comprised only of integers with the
