@@ -1,4 +1,10 @@
-# How to Run
+## About
+
+This is a recreation of the match-three video game Columns, released by Sega in 1990. 
+
+<img src="images/gameplay.png" height="250"/>
+
+## How to Run
 
 1. Setup
     - Create virtual environment
@@ -15,3 +21,11 @@
 3. Deactivate virtual environment
     - Windows: `.\venv\Scripts\deactivate.bat`
     - Mac/Linux: `./venv/Scripts/deactivate.bat`
+
+
+## Controls
+
+- Space Bar : Rotate faller
+- $\leftarrow$ : Move faller left
+- $\rightarrow$ : Move faller right
+- $\downarrow$ : Move faller down
