@@ -3,7 +3,7 @@
 This is a recreation of the match-three video game Columns, released by Sega in 1990. 
 
 <div align="center">  
-    <img src="gif/columns-gif.gif" height="300"/>
+    <img src="gif/columns-gif.gif" height="250"/>
 </div>
 
 ## How to Run
